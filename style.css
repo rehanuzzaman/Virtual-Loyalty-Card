@@ -11,18 +11,21 @@ body {
 }
 
 #card {
-    background-color: #8C52FF;
-    width: 3.37in;
-    height: 2in;
+    background-image: url(/Photos/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 3.8in;
+    height: 2.2in;
     border-radius: 5px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
     align-items: center;;
-    padding: 25px;
+    padding: 20px;
 }
 
 #header {
     display: flex;
     justify-content: space-between;
+    margin-top: -20ps;
 }
 
 #plan {
@@ -33,6 +36,7 @@ body {
     text-align: center;
     margin-top: 35px;
     font-family: 'Courier New', Courier, monospace;
+    align-items: center;
 }
 
 #loyalty {
@@ -46,6 +50,8 @@ body {
     justify-content: space-between;
     margin-top: 15x;
     align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 #valid {
@@ -60,4 +66,10 @@ body {
 
 #card:hover {
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+img {
+    width: 50px;
+    height: 35px;
+
 }
