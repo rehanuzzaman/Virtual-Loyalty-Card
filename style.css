@@ -35,10 +35,16 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+#loyalty {
+    margin-top: -10px;
+    font-size: 12px;
+    text-align: center;;
+}
+
 #footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 15x;
     align-items: center;
 }
 
