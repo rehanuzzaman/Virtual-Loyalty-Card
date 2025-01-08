@@ -11,7 +11,7 @@ body {
 }
 
 #card {
-    background-image: url(./Photos/Background.jpg);
+    background-image: url(../Photos/Background.jpg);
     background-size: cover;
     background-position: center;
     width: 3.8in;
